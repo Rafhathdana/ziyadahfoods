@@ -1,0 +1,29 @@
+
+/* Base helpers for Tailwind CDN build */
+@keyframes sprinkle-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+.sprinkle { display:inline-block; animation:sprinkle-bounce 1.6s infinite; }
+.hero-scoop {
+  background: radial-gradient(600px 200px at 50% -30%, rgba(255,255,255,0.9), rgba(255,255,255,0) 70%);
+}
+.card { @apply rounded-2xl shadow-md bg-white/80 backdrop-blur p-6; }
+.btn-primary { @apply inline-flex items-center gap-2 rounded-full px-4 py-2 font-medium bg-[#183a66] text-white hover:opacity-90 transition; }
+.link { @apply text-mint hover:underline; }
+
+/* ----- Home page helpers ----- */
+.hero-overlay {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.60));
+}
+.glass { backdrop-filter: blur(6px); background-color: rgba(255,255,255,0.85); }
+.soft-shadow { box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
+.stat { text-align: center; }
+.stat .value { font-weight:800; font-size: clamp(1.75rem, 3.5vw, 2.25rem); }
+.stat .label { color: rgba(255,255,255,0.8); font-size: .9rem; margin-top:.25rem; }
+.btn-outline { @apply inline-flex items-center gap-2 rounded-full px-4 py-2 border border-white text-white hover:bg-white hover:text-chocolate transition; }
+.section-title { @apply text-3xl md:text-4xl font-bold text-center; }
+.lead { @apply text-black/70 max-w-3xl text-center mx-auto mt-3; }
+.brand-card { @apply rounded-2xl p-10 text-white font-semibold soft-shadow; }
+.brand-fruit { background: linear-gradient(135deg, #0fb9b1, #10d7c4); }
+.brand-plummy { background: linear-gradient(135deg, #ff5a5f, #ff4747); }
