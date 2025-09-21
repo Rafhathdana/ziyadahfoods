@@ -7,10 +7,11 @@ export default function Footer() {
     <footer className="bg-[#0f1c2e] text-white">
       <div className="max-w-6xl mx-auto px-4 pt-14 pb-10 grid md:grid-cols-3 gap-10">
         <div>
-          <div className="flex items-center gap-2 font-bold text-lg">
+          <img src="/zf.png" alt="Ziyadah Foods Logo" className="h-22 w-22 object-contain"/>
+          {/* <div className="flex items-center gap-2 font-bold text-lg">
             <span className="w-7 h-7 rounded-full bg-white/10"></span>
             Ziyadah Foods
-          </div>
+          </div> */}
           <p className="text-white/75 mt-3">
             Delivering fine quality, exotic frozen treats since 2020. Made with premium natural ingredients under strict hygiene standards.
           </p>
