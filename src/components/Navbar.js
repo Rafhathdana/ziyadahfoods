@@ -5,14 +5,14 @@ import { Link, NavLink } from "react-router-dom";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const navClass = ({ isActive }) =>
-    `px-4 py-2 rounded-full hover:bg-white/70 hover:text-chocolate transition ${
-      isActive ? "bg-white text-chocolate" : "text-white"
+    `px-4 py-2 rounded-full hover:bg-prime/100 hover:text-white transition ${
+      isActive ? "bg-prime text-white" : "text-prime"
     }`;
 
   return (
     <header className="sticky top-0 z-50 bg-[#183a66]/95 backdrop-blur hero-scoop shadow">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 text-white font-extrabold text-xl">
+        <Link to="/" className="flex items-center gap-2 text-prime font-extrabold text-xl">
           <span className="sprinkle">🍦</span>
           Ziyadah Foods
         </Link>

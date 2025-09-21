@@ -5,11 +5,10 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div>
-      {/* HERO */}
       <section
-        className="relative min-h-[72vh] flex items-center"
+        className="relative min-h-[100vh] flex items-center"
         style={{
-          backgroundImage: "url('/hero-icecream.png')",
+          backgroundImage: " linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/bg.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -23,7 +22,7 @@ export default function Home() {
             </div>
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight drop-shadow">
               Premium Frozen <br className="hidden md:block" />
-              <span className="text-white/90">Treats & Delights</span>
+              <span className="text-pistachio/100">Treats & Delights</span>
             </h1>
             <p className="mt-4 text-white/90 max-w-xl">
               Delivering fine‑quality, exotic frozen treats made with premium natural ingredients since 2020.

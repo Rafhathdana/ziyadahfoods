@@ -14,11 +14,17 @@ export default function Footer() {
           <p className="text-white/75 mt-3">
             Delivering fine quality, exotic frozen treats since 2020. Made with premium natural ingredients under strict hygiene standards.
           </p>
-          <div className="flex gap-3 mt-4 text-xl">
+          {/* <div className="flex gap-3 mt-4 text-xl">
             <a href="#" aria-label="Instagram">📷</a>
             <a href="#" aria-label="Facebook">👍</a>
             <a href="#" aria-label="Twitter">🐦</a>
             <a href="#" aria-label="LinkedIn">💼</a>
+          </div> */}
+          <div className="flex space-x-4">
+            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><i className="ri-facebook-fill text-lg"></i></a>
+            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><i className="ri-instagram-line text-lg"></i></a>
+            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><i className="ri-twitter-fill text-lg"></i></a>
+            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><i className="ri-linkedin-fill text-lg"></i></a>
           </div>
         </div>
         <div>
