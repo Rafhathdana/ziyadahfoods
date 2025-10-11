@@ -1,14 +1,16 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import productsData from "../data/products.json";
 
 export default function Home() {
+  const previewProducts = productsData.slice(0, 3);
   return (
     <div>
       <section
         className="relative min-h-[100vh] flex items-center"
         style={{
-          backgroundImage: " linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/bg.jpg')",
+          backgroundImage: " linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/bg.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -59,6 +61,39 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+   {/* PRODUCTS PREVIEW */}
+      <section className="bg-white py-16">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="section-title">Our Products</h2>
+          <p className="lead">
+            Explore our most popular frozen treats made with love and the finest ingredients.
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+            {previewProducts.map((item) => (
+              <div
+                key={item.id}
+                className="bg-[#f7fbff] rounded-2xl p-6 soft-shadow text-center"
+              >
+                 <img src={item.image} alt={item.name} className="w-full h-40 object-cover rounded-xl" />
+                <h3 className="mt-3 font-semibold text-lg">{item.name}</h3>
+                <p className="text-black/60 text-sm">{item.brand}</p>
+                <p className="text-[#183a66] font-semibold mt-2">
+                  ₹{item.price}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <Link to="/products" className="btn-primary inline-block">
+              View All Products
+            </Link>
+          </div>
+        </div>
+      </section>
+
 
       {/* BRANDS */}
       <section className="py-16">

@@ -12,7 +12,7 @@ export default function Brands() {
       {/* HERO */}
       <section
         className="relative h-[320px] flex items-end"
-        style={{ backgroundImage: "url('/brands-hero.png')", backgroundSize: 'cover', backgroundPosition:'center' }}
+        style={{ backgroundImage: "url('/images/brands-hero.png')", backgroundSize: 'cover', backgroundPosition:'center' }}
       >
         <div className="absolute inset-0 hero-overlay" />
         <div className="relative max-w-6xl mx-auto px-4 pb-10 text-white">
@@ -33,7 +33,7 @@ export default function Brands() {
             "Natural & Clean Label",
             "Wide Flavor Portfolio"
           ]}
-          image="/hero-icecream.png"
+          image="/images/hero-icecream.png"
           cta={<Link to="/products" className="btn-primary mt-4 inline-flex">Explore Fruitpopz Products</Link>}
         />
         <BrandHighlight
@@ -47,7 +47,7 @@ export default function Brands() {
             "Hot Dairy Base",
             "Popular & Seasonal"
           ]}
-          image="/hero-icecream.png"
+          image="/images/hero-icecream.png"
           reverse
           cta={<Link to="/products" className="btn-primary mt-4 inline-flex">Explore Plummy Products</Link>}
         />

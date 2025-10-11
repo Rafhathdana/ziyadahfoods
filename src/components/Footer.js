@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-[#0f1c2e] text-white">
       <div className="max-w-6xl mx-auto px-4 pt-14 pb-10 grid md:grid-cols-3 gap-10">
         <div className="flex flex-col items-center">
-          <img src="/zf.png" alt="Ziyadah Foods Logo" className="h-48 w-48 object-contain"/>
+          <img src="/images/zf.png" alt="Ziyadah Foods Logo" className="h-48 w-48 object-contain"/>
           {/* <div className="flex items-center gap-2 font-bold text-lg">
             <span className="w-7 h-7 rounded-full bg-white/10"></span>
             Ziyadah Foods
