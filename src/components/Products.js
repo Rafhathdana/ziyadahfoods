@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import SectionTitle from "./atoms/SectionTitle";
 import ProductCard from "./atoms/ProductCard";
-import productsData from "../data/products.json"; // ✅ import JSON data
+import productsData from "../data/products.json";
 
 const CATEGORIES = ["All", "Ice Creams", "Kulfi", "Ice Candies", "Sip-Up"];
 const BRANDS = ["All Brands", "Fruitpopz", "Plummy"];
