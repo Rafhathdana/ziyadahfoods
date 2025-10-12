@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import productsData from "../data/products.json";
+import {  RiHeartLine, RiLeafLine, RiShieldCheckLine } from "@remixicon/react";
 
 export default function Home() {
   const previewProducts = productsData.slice(0, 3);
@@ -92,9 +93,12 @@ export default function Home() {
             ))}
           </div> */}
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <div class="w-16 h-16 bg-[#0c2342] rounded-full flex items-center justify-center mb-6">
-                <i class="ri-leaf-line text-white text-2xl"></i>
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-[#0c2342] rounded-full flex items-center justify-center mb-6">
+                <RiLeafLine
+            size={36}
+            color="white"
+        />
               </div>
               <h3 class="text-2xl font-bold text-gray-900 mb-4">
                 Natural Ingredients
@@ -106,7 +110,10 @@ export default function Home() {
             </div>
             <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div class="w-16 h-16 bg-[#0c2342] rounded-full flex items-center justify-center mb-6">
-                <i class="ri-shield-check-line text-white text-2xl"></i>
+                <RiShieldCheckLine
+            size={36}
+            color="white"
+        />
               </div>
               <h3 class="text-2xl font-bold text-gray-900 mb-4">
                 Quality Assurance
@@ -118,7 +125,10 @@ export default function Home() {
             </div>
             <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div class="w-16 h-16 bg-[#0c2342] rounded-full flex items-center justify-center mb-6">
-                <i class="ri-heart-line text-white text-2xl"></i>
+                <RiHeartLine
+            size={36}
+            color="white"
+        />
               </div>
               <h3 class="text-2xl font-bold text-gray-900 mb-4">
                 Health Conscious
