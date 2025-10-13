@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import productsData from "../data/products.json";
-import {  RiHeartLine, RiLeafLine, RiShieldCheckLine } from "@remixicon/react";
+import { RiHeartLine, RiLeafLine, RiShieldCheckLine } from "@remixicon/react";
 
 export default function Home() {
   const previewProducts = productsData.slice(0, 3);
@@ -46,7 +46,9 @@ export default function Home() {
           <div className="w-full">
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
               Premium Frozen
-              <span className="block text-pistachio">Treats &amp; Delights</span>
+              <span className="block text-pistachio">
+                Treats &amp; Delights
+              </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto leading-relaxed">
               Delivering fine-quality, exotic frozen treats made with premium
@@ -54,10 +56,7 @@ export default function Home() {
               taste, health, and indulgence.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a
-                className="btn-primary"
-                href="/products"
-              >
+              <a className="btn-primary" href="/products">
                 Explore Products
               </a>
               <a href="/brands" className="btn-outline z-10">
@@ -95,10 +94,7 @@ export default function Home() {
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-[#0c2342] rounded-full flex items-center justify-center mb-6">
-                <RiLeafLine
-            size={36}
-            color="white"
-        />
+                <RiLeafLine size={36} color="white" />
               </div>
               <h3 class="text-2xl font-bold text-gray-900 mb-4">
                 Natural Ingredients
@@ -110,10 +106,7 @@ export default function Home() {
             </div>
             <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div class="w-16 h-16 bg-[#0c2342] rounded-full flex items-center justify-center mb-6">
-                <RiShieldCheckLine
-            size={36}
-            color="white"
-        />
+                <RiShieldCheckLine size={36} color="white" />
               </div>
               <h3 class="text-2xl font-bold text-gray-900 mb-4">
                 Quality Assurance
@@ -125,10 +118,7 @@ export default function Home() {
             </div>
             <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div class="w-16 h-16 bg-[#0c2342] rounded-full flex items-center justify-center mb-6">
-                <RiHeartLine
-            size={36}
-            color="white"
-        />
+                <RiHeartLine size={36} color="white" />
               </div>
               <h3 class="text-2xl font-bold text-gray-900 mb-4">
                 Health Conscious
@@ -191,12 +181,65 @@ export default function Home() {
             Discover our flagship brands crafted with precision and passion to
             deliver exceptional frozen treats.
           </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="relative overflow-hidden rounded-3xl shadow-2xl group">
+              <div class="absolute inset-0 bg-[#03bfa4]/90"></div>
+              <img
+                alt="Fruitpopz Premium Ice Cream"
+                class="w-full h-80 object-cover object-top"
+                src="https://readdy.ai/api/search-image?query=Premium%20dairy%20ice%20cream%20with%20rich%20creamy%20texture%2C%20multiple%20colorful%20scoops%2C%20elegant%20presentation%2C%20professional%20food%20photography%2C%20luxurious%20frozen%20dessert%20display%2C%20vibrant%20colors%20and%20appetizing%20appearance%2C%20clean%20background%20highlighting%20the%20premium%20quality&amp;width=600&amp;height=400&amp;seq=fruitpopz-brand&amp;orientation=landscape"
+              />
+              <div class="absolute inset-0 flex items-center justify-center p-8">
+                <div class="text-center text-white">
+                  <h3 class="text-4xl font-bold mb-4">Fruitpopz</h3>
+                  <p class="text-lg mb-6 opacity-90">Premium Dairy Ice Cream</p>
+                  <p class="text-sm opacity-80 mb-6">
+                    100% dairy fat, no added water, premium ingredients
+                  </p>
+                  <a
+                    class="bg-white text-[#03bfa4] px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap cursor-pointer"
+                    href="https://www.fruitpopz.com/"
+                    data-discover="true"
+                  >
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="relative overflow-hidden rounded-3xl shadow-2xl group">
+              <div class="absolute inset-0 bg-[#ec1e2a]/90"></div>
+              <img
+                alt="Plummy Medium-Fat Ice Cream"
+                class="w-full h-80 object-cover object-top"
+                src="https://readdy.ai/api/search-image?query=Medium-fat%20dairy%20ice%20cream%20with%20balanced%20texture%2C%20colorful%20variety%20of%20flavors%2C%20accessible%20and%20affordable%20looking%20frozen%20treats%2C%20family-friendly%20ice%20cream%20presentation%2C%20vibrant%20and%20appealing%20display%2C%20clean%20background%20with%20multiple%20flavor%20options&amp;width=600&amp;height=400&amp;seq=plummy-brand&amp;orientation=landscape"
+              />
+              <div class="absolute inset-0 flex items-center justify-center p-8">
+                <div class="text-center text-white">
+                  <h3 class="text-4xl font-bold mb-4">Plummy</h3>
+                  <p class="text-lg mb-6 opacity-90">
+                    Medium-Fat Dairy Ice Cream
+                  </p>
+                  <p class="text-sm opacity-80 mb-6">
+                    Perfect balance of creaminess and lightness
+                  </p>
+                  <a
+                    class="bg-white text-[#ec1e2a] px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap cursor-pointer"
+                    href="https://www.plummy.com/"
+                    data-discover="true"
+                  >
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mt-10">
+          {/* <div className="grid md:grid-cols-2 gap-8 mt-10 text-center">
             <div className="brand-card brand-fruit">
-              <h3 className="text-2xl">Fruitpopz</h3>
-              <p className="text-white/90 mt-1">Premium Dairy Ice Cream</p>
-              <p className="text-white/80 mt-2">
+            
+              <h3 className="text-4xl font-bold mb-4">Fruitpopz</h3>
+              <p className="text-lg mb-6 opacity-90">Premium Dairy Ice Cream</p>
+              <p className="text-white/80">
                 100% dairy ice, no added water, premium ingredients
               </p>
               <a href="#" className="btn-outline mt-6">
@@ -204,16 +247,16 @@ export default function Home() {
               </a>
             </div>
             <div className="brand-card brand-plummy">
-              <h3 className="text-2xl">Plummy</h3>
-              <p className="text-white/90 mt-1">Medium Fat Dairy Ice Cream</p>
-              <p className="text-white/80 mt-2">
+              <h3 className="text-4xl font-bold mb-4">Plummy</h3>
+              <p className="text-lg mb-6 opacity-90">Medium Fat Dairy Ice Cream</p>
+              <p className="text-white/80">
                 Perfect balance of creaminess and lightness
               </p>
               <a href="#" className="btn-outline mt-6">
                 Learn More
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
