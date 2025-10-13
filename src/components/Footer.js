@@ -1,4 +1,5 @@
 
+import { RiFacebookFill, RiInstagramLine, RiLinkedinFill, RiTwitterFill, RiTwitterXLine, RiWhatsappFill, RiWhatsappLine } from "@remixicon/react";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -37,10 +38,10 @@ export default function Footer() {
             Delivering fine quality, exotic frozen treats since 2020. Made with premium natural ingredients under strict hygiene standards.
           </p>
           <div className="flex space-x-4 mt-7">
-            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><i className="ri-facebook-fill text-lg"></i></a>
-            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><i className="ri-instagram-line text-lg"></i></a>
-            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><i className="ri-twitter-fill text-lg"></i></a>
-            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><i className="ri-linkedin-fill text-lg"></i></a>
+            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><RiWhatsappLine size={22} color="white" /></a>
+            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"> <RiFacebookFill size={22} color="white" /></a>
+            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><RiInstagramLine size={22} color="white" /></a>
+            <a href="#" className="w-10 h-10 bg-[#0c2342] rounded-full flex items-center justify-center hover:bg-[#0a1d35] transition-colors cursor-pointer"><RiTwitterXLine size={22} color="white" /></a>
           </div>
       </div>
       <div className="border-t border-white/10">
