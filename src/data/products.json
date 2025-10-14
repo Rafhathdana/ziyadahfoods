@@ -5,7 +5,7 @@
     "brand": "Fruitpopz",
     "category": "Ice Creams",
     "price": 180,
-    "image": "/images/hero-icecream.png",
+    "image": "/images/p1.jpg",
     "desc": "Signature vanilla made with Madagascar beans.",
     "points": ["Rich texture", "Natural vanilla", "No added water"]
   },
@@ -15,7 +15,7 @@
     "brand": "Fruitpopz",
     "category": "Ice Creams",
     "price": 190,
-    "image": "/images/hero-icecream.png",
+    "image": "/images/p2.jpg",
     "desc": "Deep cocoa with fudge swirls.",
     "points": ["Premium cocoa", "Dense & creamy", "Fan favorite"]
   },
@@ -25,7 +25,7 @@
     "brand": "Plummy",
     "category": "Ice Creams",
     "price": 150,
-    "image": "/images/hero-icecream.png",
+    "image": "/images/p3.jpg",
     "desc": "Balanced & light vanilla.",
     "points": ["Medium-fat dairy", "Light texture", "Popular pick"]
   },
@@ -35,7 +35,7 @@
     "brand": "Plummy",
     "category": "Kulfi",
     "price": 120,
-    "image": "/images/hero-icecream.png",
+    "image": "/images/p4.jpg",
     "desc": "Slow-cooked malai kulfi with rich flavour.",
     "points": ["Traditional recipe", "Creamy taste", "Stick format"]
   },
@@ -45,7 +45,7 @@
     "brand": "Fruitpopz",
     "category": "Ice Candies",
     "price": 60,
-    "image": "/images/hero-icecream.png",
+    "image": "/images/p5.jpg",
     "desc": "Refreshing orange flavored ice candy.",
     "points": ["Real fruit taste", "Refreshing", "Kids love it"]
   },
@@ -55,7 +55,7 @@
     "brand": "Plummy",
     "category": "Sip-Up",
     "price": 45,
-    "image": "/images/hero-icecream.png",
+    "image": "/images/p6.jpg",
     "desc": "Fun frozen cola with a zing.",
     "points": ["Fun & fizzy", "On-the-go", "Great for summers"]
   }
