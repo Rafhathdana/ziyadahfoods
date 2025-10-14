@@ -279,7 +279,7 @@ export default function Home() {
 
       {/* CTA */}
       <section className="bg-[#0f1c2e] text-white">
-        <div className="max-w-6xl mx-auto px-4 py-16 text-center">
+        <div className="max-w-6xl mx-auto px-4 pt-16 text-center">
           <h2 className="section-title text-white">
             Ready to Experience Premium Frozen Treats?
           </h2>
@@ -287,14 +287,14 @@ export default function Home() {
             Join thousands of satisfied customers who trust Ziyadah Foods for
             their frozen dessert needs. Taste the difference quality makes.
           </p>
-          <div className="mt-8 flex items-center justify-center gap-3">
-            <Link to="/products" className="btn-primary">
-              Shop Now
-            </Link>
-            <Link to="/contact" className="btn-outline">
-              Contact Us
-            </Link>
-          </div>
+          <div className="flex flex-col sm:flex-row gap-6 items-center justify-center mt-8">
+              <a className="btn-primary" href="/products">
+                Shop Now
+              </a>
+              <a href="/contact" className="btn-outline">
+                Contact Us
+              </a>
+            </div>
         </div>
       </section>
     </div>

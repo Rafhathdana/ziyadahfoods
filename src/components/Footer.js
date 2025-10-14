@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="bg-[#0f1c2e] text-white">
-      <div className="max-w-6xl mx-auto px-4 pt-14 pb-10 grid md:grid-cols-3 gap-10">
+      <div className="max-w-6xl mx-auto px-4 pt-14 pb-4 grid md:grid-cols-3 gap-10">
         <div className="flex flex-col items-center">
           <img src="/images/zf.png" alt="Ziyadah Foods Logo" className="h-48 w-48 object-contain"/>
           {/* <div className="flex items-center gap-2 font-bold text-lg">
@@ -33,7 +33,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="max-w-6xl mx-auto px-4 py-4 text-sm text-white/70 flex items-center flex-col">
+      <div className="max-w-6xl mx-auto px-4 pb-4 text-sm text-white/70 flex items-center flex-col">
       <p className="text-white/75 mt-3">
             Delivering fine quality, exotic frozen treats since 2020. Made with premium natural ingredients under strict hygiene standards.
           </p>
