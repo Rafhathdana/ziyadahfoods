@@ -27,9 +27,9 @@ export default function Footer() {
         <div className="flex flex-col items-center">
           <h4 className="font-semibold mb-3">Contact Info</h4>
           <ul className="space-y-2 text-white/80 text-center">
-            <li>Ziyadah Foods Private Limited<br/>Delhi, India</li>
-            <li>+91 98705 43210</li>
-            <li>info@ziyadahfoods.com</li>
+            <li>Ziyadah Foods Private Limited<br/>Kerala, India</li>
+            <li>+91 9961996246 </li>
+            <li>operations@ziyadahfoods.com</li>
           </ul>
         </div>
       </div>

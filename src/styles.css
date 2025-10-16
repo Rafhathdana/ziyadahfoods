@@ -14,7 +14,7 @@
 
 /* ----- Home page helpers ----- */
 .hero-overlay {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(245, 248, 252, 0.6));
 }
 .glass { backdrop-filter: blur(6px); background-color: rgba(255,255,255,0.85); }
 .soft-shadow { box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
