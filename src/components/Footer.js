@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-6xl mx-auto px-4 pb-4 text-sm text-white/70 flex items-center flex-col">
-      <p className="text-white/75 mt-3 text-center">
+      <p className="text-white/75 mt-3 text-center font-semibold">
             Delivering fine quality, exotic frozen treats since 2020. Made with premium natural ingredients under strict hygiene standards.
           </p>
           <div className="flex space-x-4 mt-7">

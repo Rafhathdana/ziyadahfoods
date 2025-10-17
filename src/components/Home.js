@@ -265,8 +265,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
             { value: "4+", label: "Years Experience" },
-            { value: "50+", label: "Product Varieties" },
-            { value: "100+", label: "Retail Outlets" },
+            { value: "60+", label: "Product Varieties" },
+            { value: "20+", label: "Retail Outlets" },
             { value: "1M+", label: "Happy Customers" },
           ].map((s) => (
             <div key={s.label} className="stat">
