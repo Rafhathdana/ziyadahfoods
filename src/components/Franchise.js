@@ -69,7 +69,7 @@ export default function Franchise() {
           <p class="text-xl md:text-2xl text-gray-100 max-w-4xl mx-auto leading-relaxed mb-6">Join the Ziyadah Foods family and be part of our mission to bring premium frozen treats to every corner of India.</p>
           <p class="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed">Build a profitable business with our proven franchise model.</p>
           <div class="mt-12">
-            <a href="#apply" class="bg-[#0c2342] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#0a1d35] transition-all duration-300 shadow-lg hover:shadow-xl whitespace-nowrap cursor-pointer">Apply Now</a>
+            <a href="#apply" class="bg-[#0c2342] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#944907] transition-all duration-300 shadow-lg hover:shadow-xl whitespace-nowrap cursor-pointer">Apply Now</a>
           </div>
         </div>
       </section>
