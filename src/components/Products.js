@@ -48,8 +48,8 @@ export default function Products() {
                 <button
                   key={c}
                   onClick={() => setCat(c)}
-                  className={`px-4 py-2 rounded-full transition-all duration-300 flex items-center space-x-2 whitespace-nowrap cursor-pointer  text-gray-700 border border-gray-200 ${
-                    cat === c ? "bg-[#183a66] text-white" : "bg-white"
+                  className={`px-4 py-2 rounded-full transition-all duration-300 flex items-center space-x-2 whitespace-nowrap cursor-pointer   border border-gray-200 ${
+                    cat === c ? "bg-[#183a66] text-white" : "bg-white text-gray-700"
                   }`}
                 >
                   {c}
@@ -61,8 +61,8 @@ export default function Products() {
                 <button
                   key={b}
                   onClick={() => setBrand(b)}
-                  className={`px-4 py-2 rounded-full transition-all duration-300 flex items-center space-x-2 whitespace-nowrap cursor-pointer  text-gray-700 border border-gray-200  ${
-                    brand === b ? "bg-[#183a66] text-white" : "bg-white"
+                  className={`px-4 py-2 rounded-full transition-all duration-300 flex items-center space-x-2 whitespace-nowrap cursor-pointer   border border-gray-200  ${
+                    brand === b ? "bg-[#183a66] text-white" : "bg-white text-gray-700"
                   }`}
                 >
                   {b}

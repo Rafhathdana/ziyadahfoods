@@ -49,9 +49,9 @@ export default function About() {
             both taste and health.
           </p>
         </div>
-        <div>
+        <div >
           <img
-            src="/images/"
+            src="/images/aboutus2.png"
             alt="Happy customers enjoying ice cream"
             className="rounded-2xl soft-shadow"
           />
