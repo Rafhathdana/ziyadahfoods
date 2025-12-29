@@ -84,9 +84,9 @@ export default function Contact() {
                     <p class="text-gray-600 leading-relaxed">
                       Ziyadah Foods Private Limited
                       <br />
-                      New Delhi, India
-                      <br />
-                      PIN: 110001
+                      Kerala, India
+                      {/* <br />
+                      PIN: 110001 */}
                     </p>
                   </div>
                 </div>
@@ -99,11 +99,11 @@ export default function Contact() {
                       Phone Numbers
                     </h3>
                     <p class="text-gray-600">
-                      Sales: +91 98765 43210
-                      <br />
+                      Sales: +91 99619 96246
+                      {/* <br />
                       Support: +91 98765 43211
                       <br />
-                      Franchise: +91 98765 43212
+                      Franchise: +91 98765 43212 */}
                     </p>
                   </div>
                 </div>
@@ -116,11 +116,11 @@ export default function Contact() {
                       Email Addresses
                     </h3>
                     <p class="text-gray-600">
-                      General: info@ziyadahfoods.com
-                      <br />
+                      General: operations@ziyadahfoods.com
+                      {/* <br />
                       Sales: sales@ziyadahfoods.com
                       <br />
-                      Support: support@ziyadahfoods.com
+                      Support: support@ziyadahfoods.com */}
                     </p>
                   </div>
                 </div>
@@ -134,8 +134,6 @@ export default function Contact() {
                     </h3>
                     <p class="text-gray-600">
                       Monday - Friday: 9:00 AM - 6:00 PM
-                      <br />
-                      Saturday: 9:00 AM - 4:00 PM
                       <br />
                       Sunday: Closed
                     </p>
