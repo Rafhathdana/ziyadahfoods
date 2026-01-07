@@ -85,8 +85,8 @@ export default function Contact() {
                       Ziyadah Foods Private Limited
                       <br />
                       Kerala, India
-                      {/* <br />
-                      PIN: 110001 */}
+                      <br />
+                      PIN: 671317
                     </p>
                   </div>
                 </div>
