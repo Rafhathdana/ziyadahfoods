@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SectionTitle from "./atoms/SectionTitle";
 import FAQAccordion from "./atoms/FAQAccordion";
-import { RiFacebookBoxLine, RiFacebookLine, RiInstagramLine, RiMailLine, RiMapPinLine, RiPhoneLine, RiTimeLine, RiTwitterXLine, RiWhatsappLine, RiYoutubeLine } from "@remixicon/react";
+import { RiFacebookLine, RiInstagramLine, RiMailLine, RiMapPinLine, RiPhoneLine, RiTimeLine, RiTwitterXLine, RiWhatsappLine } from "@remixicon/react";
 
 const FAQS = [
   {
